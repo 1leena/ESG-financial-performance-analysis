@@ -1,49 +1,41 @@
-# ESG & Financial Performance Analysis
+## ESG and Financial performance analysis 
+# project 
 
-## Project Overview
+This project investigates the relationship between environmental, social and governance (ESG) performance and financial performance using a simulated dataset of companies. 
 
-This project investigates the relationship between Environmental, Social and Governance (ESG) performance and financial performance using a simulated dataset of companies.
+The question investigated was: 
+# is there a relationship between a company's ESG performance and its financial performance 
 
-The main question investigated was:
+The analysis was completed on Excel and SQL, with results presented on a excel dashboard 
+# tools used 
+- Excel - data organisation, pivot tables, analysis, charts and dashboard
+- SQL - aggregation, grouping, sorting and correlation analysis
+- GitHub - project documentation
 
-> **Is there a relationship between a company's ESG performance and its financial performance?**
-
-The analysis was completed using **Microsoft Excel and SQL**, with the results presented through an Excel dashboard.
-
-## Tools Used
-
-* **Excel** — data exploration, PivotTables, analysis, charts and dashboard
-* **SQL** — aggregation, grouping, sorting and correlation analysis
-* **GitHub** — project documentation and version control
-
-## Key Questions
-
-The analysis investigated:
-
+## key questions 
 1. Which industries have the highest average ESG scores?
 2. Is ESG performance related to financial performance?
 3. Which industries have the highest carbon emissions?
 4. Does company size appear related to ESG performance?
 5. Are there interesting differences between ESG performance and profitability?
 
-## Key Findings
+## findings 
+- Finance had the highest average overall ESG score at 64.6
+- Transportation had the lowest average ESG score at 46.0
+- Technology had the highest average profit margin at 18.8%
+- Energy had by far the highest average carbon emissions.
+- The company level correlation between average ESG score and average profit margin was 0.097, suggesting little to no linear relationship between the two variables in the dataset.
 
-* **Finance** had the highest average overall ESG score at approximately **64.6**.
-* **Transportation** had the lowest average ESG score at approximately **46.0**.
-* **Technology** had the highest average profit margin at approximately **18.8%**.
-* **Energy** had by far the highest average raw carbon emissions.
-* The company-level correlation between average ESG score and average profit margin was **0.097**, suggesting little to no linear relationship between the two variables in this dataset.
-
-## Important Limitations
-
+## Important Limitation
 The dataset contains simulated company data, so the findings should not be treated as representative of real-world companies.
-
 Correlation does not prove causation. The analysis also found that factors such as company size and industry can affect how ESG and carbon-emission figures should be interpreted.
 
-## Project Outputs
+## Project Outputs 
+- Excel analysis and dashboard
+- SQL analysis
+- written project report
+- dataset used for the analysis
 
-* Excel analysis and dashboard
-* SQL analysis
-* Written project report
-* Dataset used for the analysis
+
+
  
