@@ -12,7 +12,7 @@ The analysis was completed on Excel and SQL, with results presented on a excel d
 - SQL - aggregation, grouping, sorting and correlation analysis
 - GitHub - project documentation
 
-## key questions 
+## questions 
 1. Which industries have the highest average ESG scores?
 2. Is ESG performance related to financial performance?
 3. Which industries have the highest carbon emissions?
@@ -26,7 +26,7 @@ The analysis was completed on Excel and SQL, with results presented on a excel d
 - Energy had by far the highest average carbon emissions.
 - The company level correlation between average ESG score and average profit margin was 0.097, suggesting little to no linear relationship between the two variables in the dataset.
 
-## Important Limitation
+## Limitation
 The dataset contains simulated company data, so the findings should not be treated as representative of real-world companies.
 Correlation does not prove causation. The analysis also found that factors such as company size and industry can affect how ESG and carbon-emission figures should be interpreted.
 
