@@ -1,13 +1,13 @@
-## ESG and Financial performance analysis 
-# project 
+# ESG and Financial performance analysis 
+## project 
 
 This project investigates the relationship between environmental, social and governance (ESG) performance and financial performance using a simulated dataset of companies. 
 
 The question investigated was: 
-# is there a relationship between a company's ESG performance and its financial performance 
+ is there a relationship between a company's ESG performance and its financial performance 
 
 The analysis was completed on Excel and SQL, with results presented on a excel dashboard 
-# tools used 
+ tools used 
 - Excel - data organisation, pivot tables, analysis, charts and dashboard
 - SQL - aggregation, grouping, sorting and correlation analysis
 - GitHub - project documentation
