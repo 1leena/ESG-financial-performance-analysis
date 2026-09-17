@@ -30,4 +30,25 @@ SELECT CORR(Average_ESG, Average_ProfitMargin) AS ESG_Profit_correlation
 ) AS Company_averages;
 
 
+Query 4 question:
+which industries has the highest average carbon emissions?
+
+SELECT industry, AVG(CarbonEmissions) AS Average_CarbonEmissions
+FROM company_esg_financial_dataset
+GROUP BY industry 
+ORDER BY Average_CarbonEmissions DESC;
+
+
+Query 5 question:
+Does company size appear related to ESG performance 
+
+SELECT CompanyName, 
+       AVG(ESG_overall) AS Average_ESG,
+       AVG(Revenue) AS Average_Revenue 
+FROM company_esg_financial_dataset 
+GROUP BY CompanyName
+ORDER BY Average_Revenue DESC;
+
+
+
 
